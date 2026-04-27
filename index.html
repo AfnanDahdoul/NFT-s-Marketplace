@@ -9,11 +9,50 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link href="./assets/CSS/output.css" rel="stylesheet"/>
-    <title>Home Page </title>
+    <link href="./assets/CSS/output.css" rel="stylesheet" />
+    <title>Home Page</title>
 </head>
+
 <body>
-    
+    <header class="header flex
+    mx-[3.125rem] my-[1.25rem] justify-between items-center
+    max-[500px]:mx-[1.875rem]">
+        <div class="logo shrink-0 w-[243.41px] max-[400px]:w-[180px]">
+            <a href="#">
+                <img src="./assets/images/navbar imgs/logo.svg" />
+            </a>
+        </div>
+        <nav class="block max-[982px]:hidden">
+            <ul class="flex items-center gap-[1.875rem]">
+                <li class="nav-link">
+                    <a href="#">
+                        Marketplace
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        Rankings
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        Connect a Wallet
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn flex gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link">
+                        <img src="./assets/images/navbar imgs/User.svg" />
+                        Sign Up
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hidden max-[982px]:block shrink-0">
+            <img src="./assets/images/navbar imgs/Burger Menu.svg"/>
+        </div>
+    </header>
+
+
 </body>
 
 </html>

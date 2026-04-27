@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  /* --color-background: #3B3B3B; */
+  --color-primarycolor: #FFFFFF;
+  --color-background: #2B2B2B;
+  --color-btnBackground: #A259FF;
+  --font-workSans: 'Work Sans';
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primarycolor);
+    font-family: var(--font-workSans);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-[var(--color-btnBackground)] rounded-[1.25rem] hover-effect;
+  }
+
+  .nav-link {
+    @apply font-semibold text-base leading-[140%] tracking-[0] hover-effect max-[1210px]:text-sm;
+  }
+
+  .hover-effect {
+    @apply transition-transform duration-200 hover:scale-95;
+
+  }
+}
