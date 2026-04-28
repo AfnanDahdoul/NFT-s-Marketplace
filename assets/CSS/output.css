@@ -437,6 +437,16 @@
       margin-inline: auto;
     }
   }
+  .\*\:flex {
+    :is(& > *) {
+      display: flex;
+    }
+  }
+  .user-valid\:flex {
+    &:user-valid {
+      display: flex;
+    }
+  }
   .max-\[982px\]\:block {
     @media (width < 982px) {
       display: block;
