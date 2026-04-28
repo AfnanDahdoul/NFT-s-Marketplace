@@ -18,11 +18,11 @@
 
 @layer components {
   .btn {
-    @apply bg-[var(--color-btnBackground)] rounded-[1.25rem] hover-effect;
+    @apply bg-[var(--color-btnBackground)] rounded-[1.25rem];
   }
 
   .nav-link {
-    @apply font-semibold text-base leading-[140%] tracking-[0] hover-effect max-[1210px]:text-sm;
+    @apply font-semibold text-base leading-[140%] tracking-[0] max-[1210px]:text-sm;
   }
 
   .hover-effect {
