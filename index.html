@@ -14,126 +14,133 @@
 </head>
 
 <body>
-    <header class="header flex 
-    mx-[3.125rem] my-[1.25rem] justify-between items-center
-    max-[500px]:mx-[1.875rem]">
-        <div class="logo shrink-0 w-[243.41px] max-[400px]:w-[180px]">
-            <a href="#">
-                <img src="./assets/images/navbar imgs/logo.svg" />
-            </a>
-        </div>
-        <nav class="block max-[982px]:hidden">
-            <ul class="flex items-center gap-[1.875rem]">
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Marketplace
-                    </a>
-                </li>
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Rankings
-                    </a>
-                </li>
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Connect a Wallet
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn flex gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect">
-                        <img src="./assets/images/navbar imgs/User.svg" />
-                        Sign Up
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="hidden max-[982px]:block shrink-0">
-            <img src="./assets/images/navbar imgs/Burger Menu.svg" />
+    <header class="header sticky top-0 z-9 bg-background">
+        <div class="flex 
+        px-[3.125rem] py-[1.25rem] 
+        max-[500px]:px-[1.875rem] 
+        justify-between items-center">
+            <div class="logo shrink-0 w-[243.41px] max-[400px]:w-[180px]">
+                <a href="#">
+                    <img src="./assets/images/navbar imgs/logo.svg" />
+                </a>
+            </div>
+            <nav class="block max-[982px]:hidden">
+                <ul class="flex items-center gap-[1.875rem]">
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Rankings
+                        </a>
+                    </li>
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Connect a Wallet
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn flex gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect">
+                            <img src="./assets/images/navbar imgs/User.svg" />
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hidden max-[982px]:block shrink-0">
+                <img src="./assets/images/navbar imgs/Burger Menu.svg" />
+            </div>
         </div>
     </header>
-    <!-- <header class="header flex fixed w-full
-    container mx-auto my-[1.25rem] justify-between items-center
-    ">
-        <div class="logo shrink-0 w-[243.41px] max-[400px]:w-[180px]">
-            <a href="#">
-                <img src="./assets/images/navbar imgs/logo.svg" />
-            </a>
-        </div>
-        <nav class="block max-[982px]:hidden">
-            <ul class="flex items-center gap-[1.875rem]">
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Marketplace
-                    </a>
-                </li>
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Rankings
-                    </a>
-                </li>
-                <li class="nav-link hover-effect">
-                    <a href="#">
-                        Connect a Wallet
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="btn flex gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect">
-                        <img src="./assets/images/navbar imgs/User.svg" />
-                        Sign Up
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="hidden max-[982px]:block shrink-0">
-            <img src="./assets/images/navbar imgs/Burger Menu.svg" />
-        </div>
-    </header> -->
 
     <main>
-        <section class="hero h-[100vh] py-[5rem]">
-            <div class="max-w-[1200px] mx-auto px-6 flex gap-20 h-full">
-                <div class="hero-left flex flex-col flex-1 gap-[1.875rem]">
-                    <h1 class="text-[4.188rem] font-semibold leading-[110%] tracking-[0%]">Discover digital art &
+        <section class="hero h-[100vh] py-[5rem]
+        max-[982px]:py-[3rem]">
+            <div class="max-w-[80%] max-[982px]:max-w-[95%] 
+            mx-auto px-6 flex gap-20 h-full
+            max-[982px]:gap-10
+            max-[600px]:flex-col">
+                <div class="hero-left order-1 flex flex-col flex-1 gap-[1.875rem]">
+                    <h1 class="order-1 text-[4.188rem] font-semibold leading-[110%] tracking-[0%]
+                    max-[982px]:text-[2.375rem] max-[982px]:leading-[120%]">Discover digital art &
                         Collect NFTs
                     </h1>
-                    <p class="text-[1.375rem] font-normal leading-[160%] tracking-[0%]">NFT marketplace UI created with
+                    <p class="order-2 text-[1.375rem] font-normal leading-[160%] tracking-[0%]
+                    max-[982px]:text-[1rem] max-[982px]:leading-[140%]">NFT marketplace UI created with
                         Anima for Figma. Collect, buy and sell art from more than 20k
                         NFT artists.
                     </p>
-                    <a href="#" class="btn flex w-fit gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect">
+                    <div
+                        class="hero-right order-2 flex-1 self-start bg-secondaryBackground rounded-[1.25rem] shadow-xl
+                        max-[600px]:block min-[601px]:hidden">
+                        <div class="hero-card shrink-0">
+                            <div class="card-img">
+                                <img src="./assets/images/Generals/hero.webp" width="100%" />
+                            </div>
+                            <div class="card-description p-[1.375rem]">
+                                <h3>Space Walking</h3>
+                                <div class="flex gap-[0.75rem]">
+                                    <img src="./assets/images/Avatars/Avatar Placeholder (13).webp" width="24px" />
+                                    <span class="text-[1rem] font-normal leading-[140%] tracking-[0%]">Animakid</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class=" order-4 btn flex w-fit gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect
+                        max-[601px]:w-full
+                        max-[601px]:justify-center">
                         <img src="./assets/images/Generals/RocketLaunch.svg" />
                         Get Started
                     </a>
-                    <div class="additional-info flex gap-[1.875rem]">
+                    <div class="additional-info order-5 flex gap-[1.875rem] justify-between">
                         <div>
-                            <span
-                                class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]">240k+</span>
+                            <span class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]
+                                max-[982px]:text-[1.375rem] max-[982px]:leading-[160%]">
+                                240k+
+                            </span>
                             <br />
-                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]">Total Sale</span>
+                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]
+                            max-[982px]:text-[1rem] max-[982px]:leading-[140%]">
+                                Total Sale
+                            </span>
                         </div>
                         <div>
-                            <span
-                                class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]">100k+</span>
+                            <span class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]
+                                max-[982px]:text-[1.375rem] max-[982px]:leading-[160%]">
+                                100k+
+                            </span>
                             <br />
-                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]">Auctions</span>
+                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]
+                            max-[982px]:text-[1rem] max-[982px]:leading-[140%]">
+                                Auctions
+                            </span>
                         </div>
                         <div>
-                            <span
-                                class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]">240k+</span>
+                            <span class="font-spaceMono text-[1.75rem] font-bold leading-[140%] tracking-[0%]
+                                max-[982px]:text-[1.375rem] max-[982px]:leading-[160%]">
+                                240k+
+                            </span>
                             <br />
-                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]">Artists</span>
+                            <span class="text-[1.499rem] font-normal leading-[160%] tracking-[0%]
+                            max-[982px]:text-[1rem] max-[982px]:leading-[140%]">
+                                Artists
+                            </span>
                         </div>
                     </div>
                 </div>
-                <div class="hero-right flex-1 self-start bg-secondaryBackground rounded-[1.25rem] shadow-xl">
-                    <div class="hero-card">
+                <div class="hero-right order-2 flex-1 self-start bg-secondaryBackground rounded-[1.25rem] shadow-xl
+                max-[601px]:hidden">
+                    <div class="hero-card shrink-0">
                         <div class="card-img">
                             <img src="./assets/images/Generals/hero.webp" width="100%" />
                         </div>
                         <div class="card-description p-[1.375rem]">
                             <h3>Space Walking</h3>
                             <div class="flex gap-[0.75rem]">
-                                <img src="./assets/images/Avatars/Avatar Placeholder (13).webp" width="24px"/>
+                                <img src="./assets/images/Avatars/Avatar Placeholder (13).webp" width="24px" />
                                 <span class="text-[1rem] font-normal leading-[140%] tracking-[0%]">Animakid</span>
                             </div>
                         </div>
