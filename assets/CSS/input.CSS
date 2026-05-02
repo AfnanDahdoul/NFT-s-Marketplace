@@ -5,6 +5,7 @@
   --color-background: #2B2B2B;
   --color-secondaryBackground: #3B3B3B;
   --color-btnBackground: #A259FF;
+  --color-lightFont: #858584;
   --font-workSans: 'Work Sans';
   --font-spaceMono: 'Space Mono';
 }
@@ -29,5 +30,9 @@
   .hover-effect {
     @apply transition-transform duration-200 hover:scale-95;
 
+  }
+
+  .black-btn {
+    @apply bg-[var(--color-background)] border border-[var(--color-btnBackground)] rounded-[1.25rem];
   }
 }
