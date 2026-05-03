@@ -7,7 +7,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-black: #000;
     --spacing: 0.25rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
@@ -16,7 +15,6 @@
     --font-weight-normal: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --blur-lg: 16px;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -212,9 +210,6 @@
   .order-5 {
     order: 5;
   }
-  .m-\[3\.75rem\] {
-    margin: 3.75rem;
-  }
   .mx-\[1\.875rem\] {
     margin-inline: 1.875rem;
   }
@@ -226,9 +221,6 @@
   }
   .mt-\[1\.25rem\] {
     margin-top: 1.25rem;
-  }
-  .mt-\[1\.563\] {
-    margin-top: 1.563;
   }
   .mt-\[1\.563rem\] {
     margin-top: 1.563rem;
@@ -254,6 +246,24 @@
   .table {
     display: table;
   }
+  .h-\[100\] {
+    height: 100;
+  }
+  .h-\[100vh\] {
+    height: 100vh;
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
+  .h-\[640px\] {
+    height: 640px;
+  }
+  .h-\[1000\] {
+    height: 1000;
+  }
+  .h-\[1000px\] {
+    height: 1000px;
+  }
   .h-full {
     height: 100%;
   }
@@ -268,6 +278,9 @@
   }
   .w-fit {
     width: fit-content;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-\[70\%\] {
     max-width: 70%;
@@ -311,9 +324,6 @@
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
-  .gap-\[0\.5\] {
-    gap: 0.5;
-  }
   .gap-\[0\.5rem\] {
     gap: 0.5rem;
   }
@@ -342,11 +352,23 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[secondaryBackground\] {
+    background-color: secondaryBackground;
+  }
+  .bg-\[var\(\)\] {
+    background-color: var();
+  }
   .bg-\[var\(--color-background\)\] {
     background-color: var(--color-background);
   }
   .bg-\[var\(--color-secondaryBackground\)\] {
     background-color: var(--color-secondaryBackground);
+  }
+  .bg-\[var\(secondaryBackground\)\] {
+    background-color: var(secondaryBackground);
+  }
+  .bg-\[var\] {
+    background-color: var;
   }
   .bg-background {
     background-color: var(--color-background);
@@ -356,6 +378,45 @@
   }
   .bg-secondaryBackground {
     background-color: var(--color-secondaryBackground);
+  }
+  .bg-\[url\(\'\.\.\.\/assets\/images\/trending-collection-imgs\/mushroom-1\.webp\'\)\] {
+    background-image: url('.../assets/images/trending-collection-imgs/mushroom-1.webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mashrom\(1\)\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mashrom(1).webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mashroom\(1\)\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mashroom(1).webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mushroom\(1\)\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mushroom(1).webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mushroom-\(1\)\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mushroom-(1).webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mushroom-\)1\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mushroom-)1.webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mushroom-\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mushroom-.webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trending-collection-imgs\/mushroom-1\.webp\'\)\] {
+    background-image: url('../assets/images/trending-collection-imgs/mushroom-1.webp');
+  }
+  .bg-\[url\(\'\.\.\/assets\/images\/trendingCollectionImgs\/mashrom1\.webp\'\)\] {
+    background-image: url('../assets/images/trendingCollectionImgs/mashrom1.webp');
+  }
+  .bg-\[url\(\'\/assets\/images\/trendingCollectionImgs\/mashrom1\.webp\'\)\] {
+    background-image: url('/assets/images/trendingCollectionImgs/mashrom1.webp');
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .p-\[1\.25rem\] {
     padding: 1.25rem;
