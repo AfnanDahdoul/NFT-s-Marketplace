@@ -1045,16 +1045,117 @@
             </div>
         </section>
         <section class="discover py-[5rem] max-[982px]:py-[2.5rem]">
-            <div class="bg-[url('/assets/images/trendingCollectionImgs/mashrom1.webp')] 
+            <div class="relative bg-[url('/assets/images/trendingCollectionImgs/mashrom1.webp')] 
             bg-cover bg-center bg-no-repeat h-[640px] w-full ">
-                <div class="max-w-[70%] max-[1200px]:max-w-[85%] mx-auto">
-                    <div class="owner-info bg-[var(--color-secondaryBackground)]">
-                        <div class="flex gap-[0.75rem]">
-                            <img src="./assets/images/Avatars/Avatar Placeholder (14).webp" width="24px" />
-                            <span class="font-spaceMono text-[1rem] font-normal leading-[140%] tracking-[0%]">
-                                Spaceone
-                            </span>
+                <!-- gradient overlay -->
+                <div class="absolute inset-0 bg-gradient-to-t from-[#A259FF] 
+              via-[#A259FF]/60 to-transparent">
+                </div>
+                <div class="absolute bottom-[3.75rem] left-0 w-full">
+                    <div class="relative max-w-[70%] max-[1200px]:max-w-[85%] mx-auto flex items-end justify-between
+                    max-[760px]:justify-center">
+                        <div class="NFT-info flex flex-col gap-[1.875rem]">
+                            <a href="./Artist-Page.html" class="owner-info flex gap-[0.75rem] bg-secondaryBackground w-fit
+                         px-[1.25rem] py-[0.625rem] rounded-[1.25rem]">
+                                <img src="./assets/images/Avatars/Avatar Placeholder (6).webp" width="24px" />
+                                <span class="font-spaceMono text-[1rem] font-normal leading-[140%] tracking-[0%]">
+                                    Shroomie
+                                </span>
+                            </a>
+                            <h2 class="text-[3.188rem] font-semibold leading-[110%] tracking-[0%]
+                            max-[930px]:text-[2.375rem]">
+                                Magic Mashrooms
+                            </h2>
+                            <div class="auction-timer hidden font-spaceMono bg-secondaryBackground/50 
+                            w-fit p-[1.875rem] rounded-[1.25rem]
+                            max-[760px]:block">
+                                <p class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                    Auction ends in:
+                                </p>
+                                <div class="timer flex gap-[0.625rem] pt-[0.625rem]">
+                                    <div class="hours flex flex-col gap-[0.313rem]">
+                                        <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                            59
+                                        </span>
+                                        <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                            Hours
+                                        </span>
+                                    </div>
+                                    <span class="text-[1.75rem] font-bold leading-[140%] tracking-[0%]">
+                                        :
+                                    </span>
+                                    <div class="miuntes flex flex-col gap-[0.313rem]">
+                                        <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                            59
+                                        </span>
+                                        <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                            Minutes
+                                        </span>
+                                    </div>
+                                    <span class="text-[1.75rem] font-bold leading-[140%] tracking-[0%]">
+                                        :
+                                    </span>
+                                    <div class="seconds flex flex-col gap-[0.313rem]">
+                                        <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                            59
+                                        </span>
+                                        <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                            Seconds
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-2 ranking-btn">
+                                <a href="./NFT-Page.html" class="bg-white rounded-[1.25rem] text-[var(--color-background)] flex 
+                                w-fit gap-[1.25rem] px-[3.125rem] py-[1.188rem]
+                             nav-link hover-effect
+                             max-[760px]:w-full
+                             max-[791px]:justify-center">
+                                    <img src="./assets/images/Generals/purpleEye.svg" />
+                                    See NFT
+                                </a>
+                            </div>
                         </div>
+                        <div class="auction-timer font-spaceMono bg-secondaryBackground/50 
+                        w-fit p-[1.875rem] rounded-[1.25rem]
+                        max-[760px]:hidden">
+                            <p class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                Auction ends in:
+                            </p>
+                            <div class="timer flex gap-[0.625rem] pt-[0.625rem]">
+                                <div class="hours flex flex-col gap-[0.313rem]">
+                                    <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                        59
+                                    </span>
+                                    <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                        Hours
+                                    </span>
+                                </div>
+                                <span class="text-[1.75rem] font-bold leading-[140%] tracking-[0%]">
+                                    :
+                                </span>
+                                <div class="miuntes flex flex-col gap-[0.313rem]">
+                                    <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                        59
+                                    </span>
+                                    <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                        Minutes
+                                    </span>
+                                </div>
+                                <span class="text-[1.75rem] font-bold leading-[140%] tracking-[0%]">
+                                    :
+                                </span>
+                                <div class="seconds flex flex-col gap-[0.313rem]">
+                                    <span class="text-[2.375rem] font-bold leading-[120%] tracking-[0%]">
+                                        59
+                                    </span>
+                                    <span class="text-[0.75rem] font-normal leading-[110%] tracking-[0%]">
+                                        Seconds
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
