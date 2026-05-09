@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/CSS/output.css" rel="stylesheet">
+    <title>Create Account</title>
+</head>
+<body>
+    <header class="header bg-background">
+        <div class="flex 
+        px-[3.125rem] py-[1.25rem] 
+        max-[500px]:px-[1.875rem] 
+        justify-between items-center">
+            <div class="logo shrink-0 w-[243.41px] max-[400px]:w-[180px]">
+                <a href="#">
+                    <img src="./assets/images/navbar imgs/logo.svg" />
+                </a>
+            </div>
+            <nav class="block max-[982px]:hidden">
+                <ul class="flex items-center gap-[1.875rem]">
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Rankings
+                        </a>
+                    </li>
+                    <li class="nav-link hover-effect">
+                        <a href="#">
+                            Connect a Wallet
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn flex gap-[1.25rem] px-[1.25rem] py-[1.188rem] nav-link hover-effect">
+                            <img src="./assets/images/navbar imgs/User.svg" />
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hidden max-[982px]:block shrink-0">
+                <img src="./assets/images/navbar imgs/Burger Menu.svg" />
+            </div>
+        </div>
+    </header>
+    <main>
+         <section class="create-account-hero max-[982px]:py-[2.5rem] h-[100vh]">
+            <div class="flex gap-[3.75rem]">
+                <div class="flex-1">
+                    <img src="./assets/images/Generals/create-account-hero.webp" width="100%"/>
+                </div>
+                <div class="flex-1">
+                    <h1 class="text-[3.188rem] font-semibold leading-[110%] tracking-[0%]">
+                        Create Account
+                    </h1>
+                    <p class="text-[1.375rem] font-normal leading-[160%] tracking-[0%] capitalize
+                    mt-[1.25rem] mb-[2.5rem]">
+                        Welcome! enter your details and start creating, collecting and selling NFTs.
+                    </p>
+                    <form>
+                        <div class="bg-white rounded-[1.25rem] w-fit flex 
+                        gap-[0.75rem] py-[0.813rem] px-[1.25rem]">
+                            <img src="./assets/images/Icons/User.svg" alt="username icon"/>
+                            <input  type="text"
+                            placeholder="Username"
+                            class="text-background"/>
+                        </div>
+                        <div class="bg-white rounded-[1.25rem] w-fit flex 
+                        gap-[0.75rem] py-[0.813rem] px-[1.25rem]">
+                            <img src="./assets/images/Icons/greyLetter.svg" alt="email icon"/>
+                            <input  type="email"
+                            placeholder="Email Address"
+                            class="text-background"/>
+                        </div>
+                        <div class="bg-white rounded-[1.25rem] w-fit flex 
+                        gap-[0.75rem] py-[0.813rem] px-[1.25rem]">
+                            <img src="./assets/images/Icons/LockKey.svg" alt="password icon"/>
+                            <input  type="password"
+                            placeholder="Password"
+                            class="text-background"/>
+                        </div>
+                        <div class="bg-white rounded-[1.25rem] w-fit flex 
+                        gap-[0.75rem] py-[0.813rem] px-[1.25rem]">
+                            <img src="./assets/images/Icons/LockKey.svg" alt="password icon"/>
+                            <input  type="password"
+                            placeholder="Confirm Password"
+                            class="text-background"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
