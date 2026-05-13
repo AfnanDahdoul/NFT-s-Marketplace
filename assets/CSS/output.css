@@ -395,6 +395,9 @@
   .gap-\[0\.938rem\] {
     gap: 0.938rem;
   }
+  .gap-\[1\.25\] {
+    gap: 1.25;
+  }
   .gap-\[1\.25rem\] {
     gap: 1.25rem;
   }
@@ -513,6 +516,9 @@
   .px-\[1\.875rem\] {
     padding-inline: 1.875rem;
   }
+  .px-\[2\.5rem\] {
+    padding-inline: 2.5rem;
+  }
   .px-\[3\.125rem\] {
     padding-inline: 3.125rem;
   }
@@ -530,6 +536,15 @@
   }
   .py-\[1\.188rem\] {
     padding-block: 1.188rem;
+  }
+  .py-\[1rem\] {
+    padding-block: 1rem;
+  }
+  .py-\[2\.5\] {
+    padding-block: 2.5;
+  }
+  .py-\[2\.5rem\] {
+    padding-block: 2.5rem;
   }
   .py-\[3\.75rem\] {
     padding-block: 3.75rem;
