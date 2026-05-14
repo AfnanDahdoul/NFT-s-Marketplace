@@ -29,9 +29,8 @@
   }
 
   .hover-effect {
-    @apply transition-transform duration-200 hover:scale-95;
-
-  }
+    @apply transition-transform duration-200 hover:scale-95 hover:cursor-pointer;
+}
 
   .black-btn {
     @apply bg-[var(--color-background)] border border-[var(--color-btnBackground)] rounded-[1.25rem];
