@@ -200,6 +200,9 @@
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
+  .bottom-\[-60px\] {
+    bottom: -60px;
+  }
   .bottom-\[3\.75rem\] {
     bottom: 3.75rem;
   }
@@ -208,6 +211,9 @@
   }
   .left-3 {
     left: calc(var(--spacing) * 3);
+  }
+  .left-\[10\%\] {
+    left: 10%;
   }
   .z-9 {
     z-index: 9;
@@ -242,8 +248,14 @@
   .mt-\[1\.563rem\] {
     margin-top: 1.563rem;
   }
+  .mt-\[1\.875\] {
+    margin-top: 1.875;
+  }
   .mt-\[1\.875rem\] {
     margin-top: 1.875rem;
+  }
+  .mt-\[1\.875rme\] {
+    margin-top: 1.875rme;
   }
   .mb-\[0\.938rem\] {
     margin-bottom: 0.938rem;
@@ -281,8 +293,26 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
+  .h-1\/2 {
+    height: calc(1 / 2 * 100%);
+  }
+  .h-\[50\%\] {
+    height: 50%;
+  }
+  .h-\[120px\] {
+    height: 120px;
+  }
+  .h-\[320px\] {
+    height: 320px;
+  }
   .h-\[640px\] {
     height: 640px;
+  }
+  .h-\[640x\] {
+    height: 640x;
   }
   .h-full {
     height: 100%;
@@ -365,6 +395,9 @@
   .items-end {
     align-items: flex-end;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -404,6 +437,9 @@
   .gap-\[5rem\] {
     gap: 5rem;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .self-start {
     align-self: flex-start;
   }
@@ -413,12 +449,19 @@
   .rounded-\[1\.25rem\] {
     border-radius: 1.25rem;
   }
+  .rounded-\[20px\] {
+    border-radius: 20px;
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
   }
   .border-t {
     border-top-style: var(--tw-border-style);
@@ -427,6 +470,9 @@
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
+  }
+  .border-background {
+    border-color: var(--color-background);
   }
   .border-btnBackground {
     border-color: var(--color-btnBackground);
@@ -462,8 +508,23 @@
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\'\.\/assets\/images\/Generals\/artist-page-hero\.webp\'\)\] {
+    background-image: url('./assets/images/Generals/artist-page-hero.webp');
+  }
+  .bg-\[url\(\'\/assets\/images\'\)\] {
+    background-image: url('/assets/images');
+  }
+  .bg-\[url\(\'\/assets\/images\/\'\)\] {
+    background-image: url('/assets/images/');
+  }
+  .bg-\[url\(\'\/assets\/images\/Generals\/artist-page-hero\.webp\'\)\] {
+    background-image: url('/assets/images/Generals/artist-page-hero.webp');
+  }
   .bg-\[url\(\'\/assets\/images\/trendingCollectionImgs\/mashrom1\.webp\'\)\] {
     background-image: url('/assets/images/trendingCollectionImgs/mashrom1.webp');
+  }
+  .bg-\[url\(\'assets\/images\/Generals\/artist-page-hero\.webp\'\)\] {
+    background-image: url('assets/images/Generals/artist-page-hero.webp');
   }
   .from-\[\#A259FF\] {
     --tw-gradient-from: #A259FF;
@@ -544,6 +605,9 @@
   .py-\[5rem\] {
     padding-block: 5rem;
   }
+  .py-\[6rem\] {
+    padding-block: 6rem;
+  }
   .pt-\[0\.625rem\] {
     padding-top: 0.625rem;
   }
@@ -608,6 +672,10 @@
     --tw-leading: 160%;
     line-height: 160%;
   }
+  .leading-\[160\] {
+    --tw-leading: 160;
+    line-height: 160;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -623,6 +691,9 @@
   .tracking-\[0\%\] {
     --tw-tracking: 0%;
     letter-spacing: 0%;
+  }
+  .text-\[1\.375\] {
+    color: 1.375;
   }
   .text-\[var\(--color-background\)\] {
     color: var(--color-background);
