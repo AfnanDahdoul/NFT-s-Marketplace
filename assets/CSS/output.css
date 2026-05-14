@@ -1340,6 +1340,11 @@
       display: block;
     }
   }
+  .max-\[580px\]\:hidden {
+    @media (width < 580px) {
+      display: none;
+    }
+  }
   .max-\[580px\]\:grid-cols-1 {
     @media (width < 580px) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
