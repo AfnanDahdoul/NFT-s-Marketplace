@@ -854,6 +854,11 @@
       display: none;
     }
   }
+  .max-\[982px\]\:flex-col {
+    @media (width < 982px) {
+      flex-direction: column;
+    }
+  }
   .max-\[982px\]\:gap-10 {
     @media (width < 982px) {
       gap: calc(var(--spacing) * 10);
@@ -1276,6 +1281,11 @@
   .max-\[440px\]\:flex-col {
     @media (width < 440px) {
       flex-direction: column;
+    }
+  }
+  .max-\[440px\]\:items-center {
+    @media (width < 440px) {
+      align-items: center;
     }
   }
   .max-\[440px\]\:justify-center {
