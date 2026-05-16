@@ -284,9 +284,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-\[320px\] {
     height: 320px;
   }
@@ -301,9 +298,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
@@ -344,23 +338,11 @@
   .flex-1 {
     flex: 1;
   }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
   .flex-shrink-0 {
     flex-shrink: 0;
   }
   .shrink-0 {
     flex-shrink: 0;
-  }
-  .flex-grow {
-    flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -376,12 +358,6 @@
   }
   .items-end {
     align-items: flex-end;
-  }
-  .items-start {
-    align-items: flex-start;
-  }
-  .justify-baseline {
-    justify-content: baseline;
   }
   .justify-between {
     justify-content: space-between;
@@ -406,9 +382,6 @@
   }
   .gap-\[0\.938rem\] {
     gap: 0.938rem;
-  }
-  .gap-\[1\.25\] {
-    gap: 1.25;
   }
   .gap-\[1\.25rem\] {
     gap: 1.25rem;
@@ -436,9 +409,6 @@
   }
   .overflow-hidden {
     overflow: hidden;
-  }
-  .rounded-\[1\.25\] {
-    border-radius: 1.25;
   }
   .rounded-\[1\.25rem\] {
     border-radius: 1.25rem;
@@ -669,10 +639,6 @@
   .text-\[4\.188rem\] {
     font-size: 4.188rem;
   }
-  .leading-0 {
-    --tw-leading: calc(var(--spacing) * 0);
-    line-height: calc(var(--spacing) * 0);
-  }
   .leading-\[110\%\] {
     --tw-leading: 110%;
     line-height: 110%;
@@ -684,10 +650,6 @@
   .leading-\[140\%\] {
     --tw-leading: 140%;
     line-height: 140%;
-  }
-  .leading-\[140\] {
-    --tw-leading: 140;
-    line-height: 140;
   }
   .leading-\[160\%\] {
     --tw-leading: 160%;
@@ -708,10 +670,6 @@
   .tracking-\[0\%\] {
     --tw-tracking: 0%;
     letter-spacing: 0%;
-  }
-  .tracking-\[0\] {
-    --tw-tracking: 0;
-    letter-spacing: 0;
   }
   .text-\[var\(--color-background\)\] {
     color: var(--color-background);
@@ -737,16 +695,9 @@
   .uppercase {
     text-transform: uppercase;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow-xl {
     --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .max-\[1330px\]\:gap-\[3rem\] {
     @media (width < 1330px) {
@@ -1137,21 +1088,6 @@
       justify-content: center;
     }
   }
-  .max-\[790px\]\:m-\[1\.25rem\] {
-    @media (width < 790px) {
-      margin: 1.25rem;
-    }
-  }
-  .max-\[790px\]\:my-\[1\.25rem\] {
-    @media (width < 790px) {
-      margin-block: 1.25rem;
-    }
-  }
-  .max-\[790px\]\:mt-\[1\.25rem\] {
-    @media (width < 790px) {
-      margin-top: 1.25rem;
-    }
-  }
   .max-\[790px\]\:block {
     @media (width < 790px) {
       display: block;
@@ -1217,29 +1153,9 @@
       gap: calc(var(--spacing) * 5);
     }
   }
-  .max-\[790px\]\:gap-\[1\.25px\] {
-    @media (width < 790px) {
-      gap: 1.25px;
-    }
-  }
-  .max-\[790px\]\:py-\[\.25rem\] {
-    @media (width < 790px) {
-      padding-block: .25rem;
-    }
-  }
-  .max-\[790px\]\:py-\[1\.25rem\] {
-    @media (width < 790px) {
-      padding-block: 1.25rem;
-    }
-  }
   .max-\[790px\]\:py-\[1\.875rem\] {
     @media (width < 790px) {
       padding-block: 1.875rem;
-    }
-  }
-  .max-\[790px\]\:py-\[5\.25rem\] {
-    @media (width < 790px) {
-      padding-block: 5.25rem;
     }
   }
   .max-\[790px\]\:text-left {
@@ -1616,11 +1532,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -1670,7 +1581,6 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
