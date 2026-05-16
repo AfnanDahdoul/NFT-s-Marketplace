@@ -574,6 +574,9 @@
   .px-\[6\.188rem\] {
     padding-inline: 6.188rem;
   }
+  .px-\[12\.656rem\] {
+    padding-inline: 12.656rem;
+  }
   .py-\[0\.25rem\] {
     padding-block: 0.25rem;
   }
@@ -816,6 +819,11 @@
   .max-\[1120px\]\:px-\[3\.25rem\] {
     @media (width < 1120px) {
       padding-inline: 3.25rem;
+    }
+  }
+  .max-\[1120px\]\:px-\[7\.344rem\] {
+    @media (width < 1120px) {
+      padding-inline: 7.344rem;
     }
   }
   .max-\[1120px\]\:text-\[0\.75rem\] {
@@ -1257,6 +1265,11 @@
       padding-inline: 1.344rem;
     }
   }
+  .max-\[715px\]\:px-\[3\.703rem\] {
+    @media (width < 715px) {
+      padding-inline: 3.703rem;
+    }
+  }
   .max-\[710px\]\:order-3 {
     @media (width < 710px) {
       order: 3;
@@ -1385,6 +1398,11 @@
   .max-\[400px\]\:w-\[180px\] {
     @media (width < 400px) {
       width: 180px;
+    }
+  }
+  .max-\[400px\]\:px-\[1\.25rem\] {
+    @media (width < 400px) {
+      padding-inline: 1.25rem;
     }
   }
   .max-\[400px\]\:text-\[1\.75rem\] {
