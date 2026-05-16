@@ -1300,6 +1300,11 @@
       font-size: 1.1rem;
     }
   }
+  .max-\[590px\]\:hidden {
+    @media (width < 590px) {
+      display: none;
+    }
+  }
   .max-\[581px\]\:flex-col {
     @media (width < 581px) {
       flex-direction: column;
